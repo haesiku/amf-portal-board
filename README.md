@@ -1,9 +1,1 @@
-# amf-portal-board
-
-
-## Login with spring security and OAuth 2.0
-
-### Google
-
-
-### Naver
+# AMF 개발 실습 : 내 게시판
