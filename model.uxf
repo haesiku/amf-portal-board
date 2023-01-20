@@ -1,0 +1,52 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes-a</help_text><element><id>UMLClass</id><coordinates><x>350</x><y>610</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Post
+--
+-id: Long
+-title: String
+-context: String
+-author: Author
+-ClassAttribute: Long_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>610</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;value object&gt;&gt;
+Author
+--
+-id: Long
+-name: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>270</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;base entity&gt;&gt;
+BaseEntity
+--
+-createDate: LocalDateTime
+-updateDate: LocalDateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>450</y><w>170</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;150;160</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>700</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>610</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;entity&gt;&gt;
+Board
+--
+- id: Long
+- name: String
+- owner: Owner</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>900</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;standard&gt;&gt;
+PostType
+--
++ ANNOOUNCEMENT
++ NORMAL</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>700</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>790</y><w>290</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>270;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>450</y><w>200</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>180;10;10;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>900</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;value object&gt;&gt;
+Announcement
+--
+- announceStartDate: LocalDateTime
+- announceEndDate: LocalDateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>900</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;standard&gt;&gt;
+PostingType
+--
++ TOP
++ NORMAL</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>790</y><w>310</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;110;290;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>790</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt; aggregate root &gt;&gt;
+&lt;&lt; entity &gt;&gt;
+Member
+--
+- id: Long
+- name: Name
+- emailAddress: EmailAddress
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1320</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;value object&gt;&gt;
+EmailAddress
+--
+- address: String
+- domainName: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1180</x><y>400</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt; value object &gt;&gt;
+Name
+--
+- firstName: String
+- middleName: String
+- familyName: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1080</x><y>180</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
