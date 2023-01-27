@@ -1,11 +1,11 @@
 package com.amf.portal.board.service.impl;
 
-import com.amf.portal.board.domain.post.dto.PostsResponseDto;
-import com.amf.portal.board.domain.post.dto.PostsSaveRequestDto;
-import com.amf.portal.board.domain.post.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.domain.post.model.Posts;
 import com.amf.portal.board.domain.post.repository.PostsRepository;
 import com.amf.portal.board.service.PostsService;
+import com.amf.portal.board.service.dto.PostsResponseDto;
+import com.amf.portal.board.service.dto.PostsSaveRequestDto;
+import com.amf.portal.board.service.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.web.dto.PostsListResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

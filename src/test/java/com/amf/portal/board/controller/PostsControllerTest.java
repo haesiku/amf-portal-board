@@ -1,9 +1,10 @@
 package com.amf.portal.board.controller;
 
-import com.amf.portal.board.domain.post.dto.PostsSaveRequestDto;
-import com.amf.portal.board.domain.post.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.domain.post.model.Posts;
 import com.amf.portal.board.domain.post.repository.PostsRepository;
+import com.amf.portal.board.service.dto.PostsSaveRequestDto;
+import com.amf.portal.board.service.dto.PostsUpdateRequestDto;
+
 import org.apache.catalina.filters.ExpiresFilter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

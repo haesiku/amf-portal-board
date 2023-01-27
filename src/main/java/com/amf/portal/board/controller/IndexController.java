@@ -1,7 +1,8 @@
 package com.amf.portal.board.controller;
 
-import com.amf.portal.board.domain.post.dto.PostsResponseDto;
 import com.amf.portal.board.service.PostsService;
+import com.amf.portal.board.service.dto.PostsResponseDto;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

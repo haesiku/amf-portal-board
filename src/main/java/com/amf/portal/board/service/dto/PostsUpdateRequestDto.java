@@ -1,4 +1,4 @@
-package com.amf.portal.board.domain.post.dto;
+package com.amf.portal.board.service.dto;
 
 import lombok.Builder;
 import lombok.Getter;

@@ -1,9 +1,10 @@
 package com.amf.portal.board.controller;
 
-import com.amf.portal.board.domain.post.dto.PostsResponseDto;
-import com.amf.portal.board.domain.post.dto.PostsSaveRequestDto;
-import com.amf.portal.board.domain.post.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.service.PostsService;
+import com.amf.portal.board.service.dto.PostsResponseDto;
+import com.amf.portal.board.service.dto.PostsSaveRequestDto;
+import com.amf.portal.board.service.dto.PostsUpdateRequestDto;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

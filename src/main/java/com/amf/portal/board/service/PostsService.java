@@ -1,9 +1,9 @@
 package com.amf.portal.board.service;
 
-import com.amf.portal.board.domain.post.dto.PostsResponseDto;
-import com.amf.portal.board.domain.post.dto.PostsSaveRequestDto;
-import com.amf.portal.board.domain.post.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.domain.post.model.Posts;
+import com.amf.portal.board.service.dto.PostsResponseDto;
+import com.amf.portal.board.service.dto.PostsSaveRequestDto;
+import com.amf.portal.board.service.dto.PostsUpdateRequestDto;
 import com.amf.portal.board.web.dto.PostsListResponseDto;
 
 import java.util.List;
